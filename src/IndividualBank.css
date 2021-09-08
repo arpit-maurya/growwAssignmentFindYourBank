@@ -1,0 +1,88 @@
+.individualBank-mainBody {
+  position: absolute;
+  height: 91%;
+  width: 100%;
+  background-color: rgb(242, 249, 254);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-IndividualBank-container {
+  height: 93%;
+  width: 95%;
+  background-color: rgb(255, 254, 254);
+  display: flex;
+  justify-self: center;
+  box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+  border-radius: 0.9765625vw;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.individualBank-BankLogo-Name-Box {
+  padding: 1.6276041666666667vw;
+  height: 18%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 2.2786458333333335vw;
+  text-align: center;
+  color: rgb(125, 143, 181, 0.8);
+  box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+  border-radius: 0.9765625vw;
+}
+.individualBank-BankLogo-Name-Box span {
+  margin-right: 1.3020833333333333vw;
+  font-size: 5.859375vw;
+  color: rgb(131, 142, 170, 0.5);
+}
+
+.individualBank-BankData {
+  padding: 1.953125vw;
+  height: 75%;
+  width: 70%;
+  border-radius: 0.9765625vw;
+}
+
+.individualBank-BankData-oneBox {
+  height: 15%;
+  font-weight: 700;
+   font-family: "Nunito", sans-serif;
+  font-size: 2.4739583333333335vw;
+  color: rgb(191,196,205);
+  display: flex;
+  align-items: center;
+}
+.individualBank-BankData-AddressBox {
+  height: 56%;
+  font-weight:700;
+   font-family: "Nunito", sans-serif;
+  font-size: 2.4739583333333335vw;
+  color: rgb(191,196,205);
+  display: flex;
+  
+}
+
+.individualBank-BackMainPage{
+    position: absolute;
+    left: 1.90625vw;
+    top:1.90625vw;
+    height: 3.2vw;
+    width: 6.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 1.0833333333333335vw;
+    color: rgb(44, 59, 91);
+    border :2px solid rgb(158, 171, 196, 0.5);
+    background-color: rgb(247, 250, 255);
+}
+.individualBank-BackMainPage span{
+  font-size: 1.5vw;
+}

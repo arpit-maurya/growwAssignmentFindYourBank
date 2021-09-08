@@ -1,0 +1,63 @@
+.leftNavBar {
+  height: 100%;
+  width: 16.5vw;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.leftNavBar-innerContainer {
+  height: 28%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftNavBar-innerContainer-2 {
+  height: 35%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.leftNavBar-box {
+  height: 85%;
+  width: 80%;
+  margin-bottom: 1.3192612137203166vh;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(239, 240, 244);
+  border-radius: 0.6510416666666666vw;
+}
+.leftNavBar-box-iconSpan {
+  font-size:1.1780918435013263vw;
+  color: rgb(125, 143, 181);
+  padding: 0.5477308294209703vw;
+  border: 2px solid rgb(237, 242, 245);
+  background-color: rgb(246, 251, 255);
+   border-radius: 0.6510416666666666vw;
+}
+
+.leftNavBar-box-iconText {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin-left: 0.9765625vw;
+  font-size:  1.0471927497789568vw;
+  color: rgb(44, 59, 91);
+}
+
+.selected-leftNavbarBox {
+  border: 2px solid rgb(158, 171, 196, 0.5);
+  background-color: rgb(247, 250, 255);
+}
+.selected-leftNavbarIconSpan {
+  background-color: rgb(11, 129, 232);
+  color: white;
+}
+

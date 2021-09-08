@@ -1,0 +1,42 @@
+.topNavbar {
+  height: 9vh;
+  background-color: rgb(255, 254, 254);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+
+}
+
+.topNavbar-innerContainer {
+  height: 80%;
+  padding-left: 0.9765625vw;
+  padding-right: 0.9765625vw;
+  border-radius: 0.6510416666666666vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(246, 251, 255);
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  margin-left:  3vw;
+
+}
+
+.navbar-innerBox-span {
+  padding: 0.390625vw;
+  border-radius: 0.6vw;
+  background-color: rgb(11,129,232);
+  color: white;
+  font-size: 1.6vw;
+}
+.navbar-innerBox-dashboardText {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-left: 0.8vw;
+  font-size: 1.14vw;
+  color: rgb(43, 56, 99);
+}

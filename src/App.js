@@ -1,25 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+/* ArpitMaurya - GROWW ASSIGNMENT */
 
-function App() {
+import { createContext, useState, useEffect } from "react";
+import TopNavBar from "./TopNavbar.jsx";
+import DataDisplayScreen from "./DataDisplayScreen.jsx";
+import "./App.css";
+import LoadingPage from "./LoadingPage.jsx";
+export const allRequiredDataDetails = createContext();
+
+let App = () => {
+  
+  let [selected_allBanks_or_fav, setSelected_allBanks_or_fav] =
+    useState("All Banks");
+  let [banksDetails, setBankDetails] = useState(null);
+
+  // useEffect is used for Fetching Data Once when page is loaded
+  
+  useEffect(() => {
+    let run = async () => {
+      let fetchBankDetails = await fetch(
+        "https://vast-shore-74260.herokuapp.com/banks?city=MUMBAI"
+      );
+      let details = await fetchBankDetails.json();
+      setBankDetails(details);
+    };
+    run();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* 
+
+        * Conditional (ternary) operator is Used
+        To Show LoadingPage and Actual Bank Data
+
+        * If data is Fetched From Given GROWW Link DisplayScreen Will Be Shown 
+          If Not Then Loading Page Will be shown
+
+      */}
+
+      {banksDetails ? (
+        <div className="mainBody">
+          <TopNavBar />
+          <allRequiredDataDetails.Provider
+            value={{
+              selected_allBanks_or_fav,
+              setSelected_allBanks_or_fav,
+              banksDetails,
+            }}
+          >
+            <DataDisplayScreen />
+          </allRequiredDataDetails.Provider>
+        </div>
+     ) : (
+         <LoadingPage />
+     )}
+    </>
   );
-}
+};
 
 export default App;

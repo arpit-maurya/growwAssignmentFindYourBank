@@ -1,0 +1,300 @@
+.tableDataDisplayScreen-mainBody {
+  margin-top: 15px;
+  height: 85%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.tableDataDisplayInnerScreen {
+  height: 100%;
+  width: 92%;
+  background-color: white;
+  border-radius: 0.78125vw;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 0.9765625vw;
+  text-align: center;
+  margin: auto;
+  color: rgb(44, 59, 91, 0.3);
+}
+
+.tableDataDisplay-tableContainer {
+  height: 90%;
+  width: 97%;
+  overflow: auto;
+  padding: 0.3255208333333333vw;
+}
+
+.tableDataDisplay-pageNav {
+  height: 10%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+}
+
+.tableDataDisplay-tableHead {
+  height: 9%;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 2px solid rgb(131, 142, 170, 0.8);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.tableDataDisplay-tableHeadDataContainer {
+  height: 12%;
+  width: 100%;
+  margin-top:  0.6596306068601583vh;
+  border-radius: 0.6510416666666666vw;
+  border: 2px solid rgb(237, 235, 238);
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableDataDisplay-tableHead-box1 {
+  height: 80%;
+  width: 20%;
+  border-right: 2px solid rgb(237, 235, 238);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.171875vw;
+  color: rgb(37, 57, 109, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tableDataDisplay-tableHead-box1-bankName {
+  height: 80%;
+  width: 20%;
+  border-right: 2px solid rgb(237, 235, 238);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.8463541666666666vw;
+  /* color: rgb(131, 142, 170, 0.9); */
+  color: rgb(38, 56, 103,.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.6510416666666666vw;
+  /* text-decoration: underline; */
+}
+.tableDataDisplay-tableHead-box2 {
+  height: 80%;
+  width: 18%;
+  border-right: 2px solid rgb(237, 235, 238);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.171875vw;
+  color: rgb(37, 57, 109, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tableDataDisplay-tableHead-box2-dataEntry {
+  height: 80%;
+  width: 18%;
+  border-right: 2px solid rgb(237, 235, 238);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.8463541666666666vw;
+  color: rgb(131, 142, 170, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.6510416666666666vw;
+}
+.tableDataDisplay-tableHead-box3 {
+  height: 80%;
+  width: 30%;
+  border-right: 2px solid rgb(237, 235, 238);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.171875vw;
+  color: rgb(37, 57, 109, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tableDataDisplay-tableHead-box4 {
+  height: 80%;
+  width: 15%;
+  /* border-left: 2px solid rgb(237,235,238); */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.171875vw;
+  color: rgb(37, 57, 109, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tableDataDisplay-tableHead-box4-fav {
+  height: 80%;
+  width: 15%;
+  border-left: 2px solid rgb(237, 235, 238);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.9765625vw;
+  color: rgb(131, 142, 170, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.3255208333333333vw;
+}
+.tableDataDisplay-tableHead-box3-Address {
+  height: 80%;
+  width: 30%;
+  border-right: 2px solid rgb(237, 235, 238);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.8463541666666666vw;
+  color: rgb(131, 142, 170, 0.9);
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:  0.6510416666666666vw;
+  border: none;
+}
+.favBox {
+  height: 100%;
+  width: 70%;
+  /* border: 2px solid rgb(237,235,238); */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.9765625vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.78125vw;
+  background-color: rgb(250, 91, 125);
+}
+.pageNav-movieDownText {
+  height: 70%;
+  width: 27%;
+  /* border:1px solid black; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.78125vw;
+  color: rgb(44, 59, 91, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.6510416666666666vw;
+  background-color: rgb(247, 250, 255);
+  border: 2px solid rgb(158, 171, 196, 0.5);
+}
+
+.pageNav-rowText {
+  width: 11%;
+  height: 85%;
+  /* border:1px solid black; */
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.0416666666666667vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5208333333333334vw;
+  background-color: rgb(11, 129, 232);
+  margin-left: 1.8229166666666667vw;
+  margin-right: 0.6510416666666666vw;
+  position: relative;
+  padding-left: 0.9765625vw;
+}
+.pageNav-innerContainer {
+  width: 71%;
+  height: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nextBtn {
+  font-size: 2.2786458333333335vw;
+  color: white;
+  transform: rotate(270deg);
+  border-radius: 0.6510416666666666vw;
+  background-color: rgb(11, 129, 232);
+}
+.previousBtn {
+  font-size: 2.2786458333333335vw;
+  color: white;
+  transform: rotate(90deg);
+  border-radius:0.6510416666666666vw;
+  background-color: rgb(11, 129, 232);
+}
+.rowPerPage {
+  width: 18%;
+  height: 85%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 0.9765625vw;
+  color: white;
+  border-radius: 0.6510416666666666vw;
+  background-color: rgb(11, 129, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.6510416666666666vw;
+  position: relative;
+  padding-left: 0.6510416666666666vw;
+}
+.rowPerPage span {
+  position: absolute;
+  left: -1.6927083333333333vw;
+  height: 100%;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  width: 30%;
+  background-color: rgb(250, 91, 125);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.6510416666666666vw;
+  margin-left: 0.3255208333333333vw;
+}
+
+.goToDirectPage {
+  position: absolute;
+  left: -1.171875vw;
+  margin-right: 0.3255208333333333vw;
+  height: 100%;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  width: 48%;
+  background-color: rgb(250, 91, 125);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.6510416666666666vw;
+}
+
+.tableRow-color {
+  background-color: rgb(239,245,247,.5);
+}
+
+.bankLinkColor{
+  color: rgb(101,150,222);
+}
